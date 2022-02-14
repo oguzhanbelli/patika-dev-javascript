@@ -118,3 +118,51 @@ console.log("Son oluşumun indeksi", lastIndex);
 let nums2 = [1, 5, 2, 6];
 let sum = nums2.reduce((x, y) => x + y);
 console.log("Dizedeki değerlerin toplamı ", sum);
+
+
+// // Hackerrank stringi index'in tek ve çift olmasına göre 2'ye bölmek
+
+// function processData(input) {
+//   //Enter your code here
+//    let trimst = input.split("\n");
+ 
+//   let n = parseInt(trimst[0]);
+ 
+//    for(let i = 0; i<n; i++){
+//      let m = trimst[i+1];
+//      let l = m.length;
+//      let arr = m.split("");
+//      let ra = "";
+//      let rb = "";
+     
+    
+//     for(let j = 0; j<l; j ++){
+//       if(j % 2 == 0 ){
+//         ra += arr[j];
+//       }else{
+//         rb += arr[j];
+//       }
+     
+//     }
+//   console.log(ra + " " + rb)
+//    }
+   
+ 
+   
+ 
+ 
+  
+//  }
+   
+ 
+//  process.stdin.resume();
+//  process.stdin.setEncoding("ascii");
+//  _input = "";
+//  process.stdin.on("data", function (input) {
+//    _input += input;
+//  });
+ 
+//  process.stdin.on("end", function () {
+//    processData(_input);
+//  });
+ 
